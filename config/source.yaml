@@ -1,34 +1,36 @@
-# 模糊抓取订阅链接
 - type: webfuzzsub
   options:
     url: https://raw.githubusercontent.com/du5/free/master/sub.list
 
-# 订阅链接
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+    url: https://www.992266.xyz/api/v1/client/subscribe?token=ab825616355b0973e4cdfb659665965f
 
-# 网页模糊抓取
-- type: webfuzz
+- type: subscribe
   options:
-    url: https://merlinblog.xyz/wiki/freess.html
+    url: https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
 
-# tg频道抓取
-- type: tgchannel
-  options:
-    channel: ssrList
-    num: 200
-
-# 翻墙党论坛抓取
 - type: web-fanqiangdang
   options:
     url: https://fanqiangdang.com/forum-48-1.html
 
-# clash格式订阅链接
 - type: clash
   options:
     url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
 
-# 某个网站抓取
-- type: web-freessrxyz
+- type: clash
   options:
+    url: http://49.233.28.108:1314/clash/proxies
+
+- type: webfuzz
+  options:
+    url: https://merlinblog.xyz/wiki/freess.html
+
+- type: webfuzz
+  options:
+    url: https://doc.openit.ml/guide/
+
+- type: tgchannel
+  options:
+    channel: heinuhome
+    num: 200
