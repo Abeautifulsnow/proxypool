@@ -1,3 +1,126 @@
+# 模糊抓取订阅链接webfuzzsub抓取（clash,config,json,txt,sub后缀文件）等
+- type: webfuzzsub
+  options:
+    url: https://raw.githubusercontent.com/du5/free/master/sub.list
+
+# 订阅链接-订阅地址Base64编码
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity
+
+- type: subscribe
+  options:
+    url: 
+
+# 网页模糊抓取-抓取网站所有的订阅地址
+- type: webfuzz
+  options:
+    url: https://zfjvpn.gitbook.io/123/
+
+- type: webfuzz
+  options:
+    url: https://t.me/s/SSRlist
+
+- type: webfuzz
+  options:
+    url: https://docs.google.com/document/d/1x3b07u_AjVq137WIaiJDN_TbXP48NCSb9UQE8Ag1vVA/edit
+
+- type: webfuzz
+  options:
+    url: https://merlinblog.xyz/wiki/freess.html
+
+- type: webfuzz
+  options:
+    url: https://www.butnono.com/latest-2020-freevpn-v2ray-ss-ssr-address.html
+
+- type: webfuzz
+  options:
+    url: https://ednovas.design/?ylrandomToken=4017&
+
+- type: webfuzz
+  options:
+    url: https://proxy.yugogo.xyz/
+
+- type: webfuzz
+  options:
+    url: https://freefq.com/free-ss/
+
+- type: webfuzz
+  options:
+    url: https://lncn.org/
+
+- type: webfuzz
+  options:
+    url: https://github.com/UmeLabs/node.umelabs.dev
+
+- type: webfuzz
+  options:
+    url: https://github.com/colatiger/v2ray-nodes
+
+- type: webfuzz
+  options:
+    url: https://freefq.com/v2ray/
+
+- type: webfuzz
+  options:
+    url: https://freefq.com/free-ssr/
+
+- type: webfuzz
+  options:
+    url: https://freefq.com/free-xray/
+
+- type: webfuzz
+  options:
+    url: https://freefq.com/free-trojan/
+
+- type: webfuzz
+  options:
+    url: https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+
+# tg频道抓取
+- type: tgchannel
+  options:
+    channel: ssrList
+    num: 200
+
+# 翻墙党论坛抓取
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-48-1.html
+
+# clash格式订阅链接2
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/update/provider/config.yml
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
+
+- type: clash
+  options:
+    url: https://sspool.herokuapp.com/clash/proxies
+
+- type: clash
+  options:
+    url: https://proxypool.ednovas.xyz/clash/proxies
+
+- type: clash
+  options:
+    url: https://fq.lonxin.net/clash/proxies
+
+- type: clash
+  options:
+    url: https://proxies.bihai.cf/clash/proxies
+
 - type: webfuzzsub
   options:
     url: https://raw.githubusercontent.com/du5/free/master/sub.list
