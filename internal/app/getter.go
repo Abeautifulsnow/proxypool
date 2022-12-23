@@ -21,6 +21,8 @@ func InitConfigAndGetters() (err error) {
 	if err != nil {
 		return
 	}
+
+	// Read source.yaml configuration
 	if s := config.Config.SourceFiles; len(s) == 0 {
 		return errors.New("no sources")
 	} else {

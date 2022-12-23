@@ -1,0 +1,4 @@
+https://github.com/Loyalsoldier/clash-rules
+
+// 自动更新的clash节点
+https://github.com/aiboboxx/clashfree
